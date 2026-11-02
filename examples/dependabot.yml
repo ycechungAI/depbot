@@ -1,0 +1,15 @@
+# Dependency updates are tested and landed with depbot.
+# Routine version-update PRs are off (limit 0); security fixes still arrive,
+# grouped into one PR per ecosystem instead of one PR per advisory.
+version: 2
+updates:
+  - package-ecosystem: npm   # one entry per ecosystem: pip, gomod, github-actions, ...
+    directories:
+      - "/"
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 0
+    groups:
+      security:
+        applies-to: security-updates
+        patterns: ["*"]

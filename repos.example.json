@@ -1,0 +1,5 @@
+{
+  "my-app": {},
+  "octo/site": { "dir": "web", "setup": "npm ci --prefix worker" },
+  "ml-lab": { "python": ["3.10", "3.11"] }
+}
