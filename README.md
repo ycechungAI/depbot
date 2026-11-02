@@ -18,6 +18,8 @@ pipx install git+https://github.com/ycechungAI/depbot@v0.1.0              # or i
 
 depbot isn't on PyPI yet; these install the tagged release from GitHub.
 
+Or clone the repo and run `./run.sh` (it runs `depbot scan`, or any depbot command you pass it).
+
 depbot needs `git`, and [`gh`](https://cli.github.com) logged in (`gh auth login`). It runs each
 repo's own tools: `node`/`npx` for JavaScript, `uv` for Python, `go` for Go.
 
