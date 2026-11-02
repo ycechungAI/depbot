@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "depbot"
+version = "0.1.0"
+description = "Test Dependabot PRs on your machine and land the safe updates in one push"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [{ name = "ycechungAI" }]
+keywords = ["dependabot", "dependencies", "github", "automation"]
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: MacOS",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Build Tools",
+]
+
+[project.urls]
+Homepage = "https://github.com/ycechungAI/depbot"
+Issues = "https://github.com/ycechungAI/depbot/issues"
+
+[project.scripts]
+depbot = "depbot:main"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.setuptools]
+py-modules = ["depbot"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,35 @@
+name: depbot
+description: Test Dependabot PRs and land the safe minor/patch updates in one push
+branding:
+  icon: package
+  color: green
+inputs:
+  mode:
+    description: "push: land on the default branch; pr: open one batch PR instead"
+    default: push
+  ci:
+    description: "true: let CI run on the batch commit (by default it carries [skip ci], since depbot ran the tests)"
+    default: "false"
+  token:
+    description: >-
+      Token that can read PRs and push. The default GITHUB_TOKEN can't push changes to
+      .github/workflows, so use a token with the workflow scope if Dependabot updates your Actions.
+    default: ${{ github.token }}
+runs:
+  using: composite
+  steps:
+    - uses: astral-sh/setup-uv@v6
+    - shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        DEPBOT_CACHE: ${{ runner.temp }}/depbot
+        DEPBOT_MODE: ${{ inputs.mode }}
+        DEPBOT_CI: ${{ inputs.ci }}
+      run: |
+        gh auth setup-git
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        args=()
+        if [ "$DEPBOT_MODE" = pr ]; then args+=(--pr); fi
+        if [ "$DEPBOT_CI" = true ]; then args+=(--ci); fi
+        uvx --from "$GITHUB_ACTION_PATH" depbot update "$GITHUB_REPOSITORY" "${args[@]}"
