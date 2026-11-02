@@ -12,9 +12,11 @@ Each landed update is logged in the repo's `DEPENDENCY_UPDATES.md`.
 ## Install
 
 ```bash
-uvx depbot --help          # run it without installing (needs uv)
-pipx install depbot        # or install it
+uvx --from git+https://github.com/ycechungAI/depbot@v0.1.0 depbot --help   # run it without installing (needs uv)
+pipx install git+https://github.com/ycechungAI/depbot@v0.1.0              # or install it
 ```
+
+depbot isn't on PyPI yet; these install the tagged release from GitHub.
 
 depbot needs `git`, and [`gh`](https://cli.github.com) logged in (`gh auth login`). It runs each
 repo's own tools: `node`/`npx` for JavaScript, `uv` for Python, `go` for Go.
