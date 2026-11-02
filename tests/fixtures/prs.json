@@ -1,0 +1,110 @@
+{
+ "npm-group-table-61": {
+  "number": 61,
+  "title": "build(deps): Bump the minor-and-patch group across 1 directory with 17 updates",
+  "body": "Bumps the minor-and-patch group with 17 updates in the / directory:\n\n| Package | From | To |\n| --- | --- | --- |\n| [@radix-ui/react-alert-dialog](https://github.com/radix-ui/primitives/tree/HEAD/packages/react/alert-dialog) | `1.2.0` | `1.2.1` |\n| [@radix-ui/react-dropdown-menu](https://github.com/radix-ui/primitives/tree/HEAD/packages/react/dropdown-menu) | `2.2.0` | `2.2.1` |\n| [@sentry/react](https://github.com/getsentry/sentry-javascript) | `11.6.0` | `11.10.0` |\n| [@tanstack/react-query](https://github.com/TanStack/query/tree/HEAD/packages/react-query) | `5.104.2` | `5.105.0` |\n| [react](https://github.com/react/react/tree/HEAD/packages/react) | `19.3.0` | `19.3.1` |\n| [react-dom](https://github.com/react/react/tree/HEAD/packages/react-dom) | `19.3.0` | `19.3.1` |\n| [react-hook-form](https://github.com/react-hook-form/react-hook-form) | `7.90.0` | `7.91.0` |\n| [react-router](https://github.com/remix-run/react-router/tree/HEAD/packages/react-router) | `8.4.0` | `8.5.1` |\n| [@axe-core/playwright](https://github.com/dequelabs/axe-core-npm) | `4.13.0` | `4.14.0` |\n| [@playwright/test](https://github.com/microsoft/playwright) | `1.64.0` | `1.64.1` |\n| [@testing-library/user-event](https://github.com/testing-library/user-event) | `14.6.7` | `14.6.8` |\n| [@vitest/coverage-v8](https://github.com/vitest-dev/vitest/tree/HEAD/packages/coverage-v8) | `5.0.3` | `5.0.5` |\n| [firebase-tools](https://github.com/firebase/firebase-tools) | `15.33.0` | `15.34.2` |\n| [jsdom](https://github.com/jsdom/jsdom) | `30.1.2` | `30.1.3` |\n| [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint/tree/HEAD/packages/typescript-eslint) | `8.71.1` | `8.72.1` |\n| [vite](https://github.com/vitejs/vite/tree/HEAD/packages/vite) | `8.3.4` | `8.3.5` |\n| [vitest](https://github.com/vitest-dev/vitest/tree/HEAD/packages/vitest) | `5.0.3` | `5.0.5` |\n\nUpdates `@radix-ui/react-alert-dialog` from 1.2.0 to 1.2.1\n\n<br />\n\nUpdates `@radix-ui/react-dropdown-menu` from 2.2.0 to 2.2.1\n\n<br />\n\nUpdates `@sentry/react` from 11.6.0 to 11.10.0\n\n<br />\n\nUpdates `@tanstack/react-query` from 5.104.2 to 5.105.0\n\n<br />\n\nUpdates `react` from 19.3.0 to 19.3.1\n\n<br />\n\nUpdates `react-dom` from 19.3.0 to 19.3.1\n\n<br />\n\nUpdates `react-hook-form` from 7.90.0 to 7.91.0\n\n<br />\n\nUpdates `react-router` from 8.4.0 to 8.5.1\n\n<br />\n\nUpdates `@axe-core/playwright` from 4.13.0 to 4.14.0\n\n<br />\n\nUpdates `@playwright/test` from 1.64.0 to 1.64.1\n\n<details>\n<summary>Commits</summary>\n<ul>\n<li><a href=\"https://github.com/microsoft/playwright/commit/cfe490d941f992655948eee8fd4fd94e1c4234bf\"><code>cfe490d</code></a> cherry-pick(<a href=\"https://redirect.github.com/microsoft/playwright/issues/43353\">#43353</a>): docs: release notes for v1.64 Python</li>\n<li><a href=\"https://github.com/microsoft/playwright/commit/866cbb864009f84d7e8e41c64fdbfceff43f280d\"><code>866cbb8</code></a> chore: mark v1.64.1 (<a href=\"https://redirect.github.com/microsoft/playwright/issues/43354\">#43354</a>)</li>\n<li><a href=\"https://github.com/microsoft/playwright/commit/1b2924712024804936dbcfe9fabaa655d52325e5\"><code>1b29247</code></a> cherry-pick(<a href=\"https://redirect.github.com/microsoft/playwright/issues/43250\">#43250</a>): fix(electron): do not drop windows that have not navigat...</li>\n<li><a href=\"https://github.com/microsoft/playwright/commit/632d976826c74b0163fd5201a05b7b4853ba3f4a\"><code>632d976</code></a> cherry-pick(<a href=\"https://redirect.github.com/microsoft/playwright/issues/43249\">#43249</a>): fix(chromium): disable AvoidCorsURLLoaderRestartOnRedirect</li>\n<li><a href=\"https://github.com/microsoft/playwright/commit/824d0c5d1e10f21fcbe88d18a99d06194acde77c\"><code>824d0c5</code></a> cherry-pick(<a href=\"https://redirect.github.com/microsoft/playwright/issues/43217\">#43217</a>): chore(dotnet): fix async suffix of optional-arg overload...</li>\n<li>See full diff in <a href=\"https://github.com/microsoft/playwright/compare/v1.6...\n\n_Description has been truncated_\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/npm_and_yarn/minor-and-patch-c962439d70"
+ },
+ "GPT3-wellbeingAssist-27": {
+  "number": 27,
+  "title": "Bump pillow from 12.3.0 to 13.0.0",
+  "body": "Bumps [pillow](https://github.com/python-pillow/Pillow) from 12.3.0 to 13.0.0.\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/uv/pillow-13.0.0"
+ },
+ "OpenManus-7": {
+  "number": 7,
+  "title": "chore(deps): bump axios from 1.8.4 to 1.21.0 in /app/tool/chart_visualization",
+  "body": "Bumps [axios](https://github.com/axios/axios) from 1.8.4 to 1.21.0.\n\n<br />\n\n> **Note**\n> Automatic rebases have been disabled on this pull request as it has been open for over 30 days.\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/npm_and_yarn/app/tool/chart_visualization/axios-1.13.5"
+ },
+ "awesome-llm-apps-5": {
+  "number": 5,
+  "title": "chore(deps): bump pillow from 10.0.0 to 10.3.0 in /starter_ai_agents/ai_medical_imaging_agent",
+  "body": "Bumps [pillow](https://github.com/python-pillow/Pillow) from 10.0.0 to 10.3.0.\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/pip/starter_ai_agents/ai_medical_imaging_agent/pillow-10.3.0"
+ },
+ "npm-security-112": {
+  "number": 112,
+  "title": "build(deps): Bump markdown-it from 14.3.2 to 14.3.3 in the security group across 1 directory",
+  "body": "Bumps the security group with 1 update in the / directory: [markdown-it](https://github.com/markdown-it/markdown-it).\n\nUpdates `markdown-it` from 14.3.2 to 14.3.3\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/npm_and_yarn/security-e468533519"
+ },
+ "cmd-ssg-docs-39": {
+  "number": 39,
+  "title": "Bump baseline-browser-mapping from 2.9.15 to 2.11.21",
+  "body": "Bumps [baseline-browser-mapping](https://github.com/web-platform-dx/baseline-browser-mapping) from 2.9.15 to 2.11.21.\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/npm_and_yarn/baseline-browser-mapping-2.11.21"
+ },
+ "google-research-1": {
+  "number": 1,
+  "title": "Bump tensorflow from 1.15rc2 to 2.12.1 in /eim",
+  "body": "Bumps [tensorflow](https://github.com/tensorflow/tensorflow) from 1.15rc2 to 2.12.1.\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/pip/eim/tensorflow-2.12.1"
+ },
+ "google-research-18": {
+  "number": 18,
+  "title": "Bump torch from 2.6.0 to 2.13.0 in /EgoSocial",
+  "body": "Bumps [torch](https://github.com/pytorch/pytorch) from 2.6.0 to 2.13.0.\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/pip/EgoSocial/torch-2.8.0"
+ },
+ "google-research-48": {
+  "number": 48,
+  "title": "Bump fsspec from 2025.12.0 to 2026.6.0 in /f_divergence_tests",
+  "body": "Bumps [fsspec](https://github.com/fsspec/filesystem_spec) from 2025.12.0 to 2026.6.0.\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/pip/f_divergence_tests/fsspec-2026.6.0"
+ },
+ "actions-78": {
+  "number": 78,
+  "title": "chore(deps): bump actions/setup-node from 4 to 7",
+  "body": "Bumps [actions/setup-node](https://github.com/actions/setup-node) from 4 to 7.\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/github_actions/actions/setup-node-7"
+ },
+ "npm-group-79": {
+  "number": 79,
+  "title": "chore(deps): bump the npm-minor-patch group with 2 updates",
+  "body": "Bumps the npm-minor-patch group with 2 updates: [axios](https://github.com/axios/axios) and [express-rate-limit](https://github.com/express-rate-limit/express-rate-limit).\n\nUpdates `axios` from 1.20.0 to 1.21.0\n\n<br />\n\nUpdates `express-rate-limit` from 8.7.1 to 8.7.2\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/npm_and_yarn/npm-minor-patch-0e38da99d1"
+ },
+ "electron-80": {
+  "number": 80,
+  "title": "chore(deps-dev): bump electron from 44.9.1 to 45.1.0",
+  "body": "Bumps [electron](https://github.com/electron/electron) from 44.9.1 to 45.1.0.\n\n<br />\n",
+  "author": {
+   "login": "app/dependabot"
+  },
+  "headRefName": "dependabot/npm_and_yarn/electron-45.1.0"
+ }
+}
